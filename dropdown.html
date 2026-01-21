@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.main{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    transition: 2s;
+}
+.hoverme{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 30%;
+    box-shadow: 7px 8px 16px;
+    padding: 12px 16px;
+    transition: 3s;
+}
+.btn{
+    width: 15%;
+    height: 7vh;
+    background-color: rgb(0, 153, 255);
+    transition: 2s;
+}
+.main:hover .hoverme{
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+.hoverme a{
+    text-decoration: none;
+}
+</style>
+<body>
+    <div class="main">
+     <button class="btn">Gallery</button>
+     <div class="hoverme">
+       <ul>  
+  
+   <li><a href="#">Home</a></li> 
+  <li><a href="./download (1).jfif">Contant</a></li> 
+   <li><a href="./download (2).jfif">Blog</a></li> 
+   <li><a href="./download (3).jfif">About</a></li> 
+   <li><a href="./download (4).jfif">Index</a></li>
+   </div>
+    </ul>
+     
+    </div>
+</body>
+</html>
