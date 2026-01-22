@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sub{
+        display: flex;
+        margin-left: 10px;
+    }
+.grad{
+width: 30%;
+height: 50vh;
+background-image: radial-gradient(blue, red, yellow, blue, red, yellow);
+}
+.grad{
+    border-radius: 100%;
+}
+.main{
+    width: 30%;
+    height: 50vh;
+    background-image: conic-gradient(red, blue, green,red, blue, green);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.linear{
+width: 30%;
+height: 50vh;
+background-image: linear-gradient(red, yellow, green, blue, indigo, violet);
+background-image: linear-gradient(rgb(214, 24, 24), rgb(20, 7, 211), yellow);
+background-image: linear-gradient(to left, red, yellow, green, blue, violet);
+}
+
+</style>
+<body>
+    <div class="sub">
+    <div class="grad"></div>
+    <div class="main"></div>
+    <div class="linear"></div>
+    </div>
+</body>
+</html>
