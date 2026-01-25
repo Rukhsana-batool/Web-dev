@@ -1,0 +1,32 @@
+.main >p{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+.main +p{
+    color: chocolate;
+}
+.main ~p{
+font-size: 20px;
+color: brown;
+}
+.sub{
+    width: 400px;
+    height: 70vh;
+    background-color: cornflowerblue;
+    position: relative;
+    left: -100%;
+    transition: 2s;
+}
+input[type="checkbox"]:checked
+~ .sub{
+    left: 0;
+}
+.sub a{
+    text-decoration: none;
+    color: black;  
+}
+li{
+    list-style-type: none;
+    margin-top: 30px;
+}

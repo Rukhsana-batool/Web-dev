@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.border{
+    width: 100%;
+    height: 100vh;
+   background-color: aqua;
+}
+.border h1{
+    text-align: center;
+    height: 10%;
+    width: 100%;
+    background-color: indianred;
+    position: fixed;
+}
+.int{
+    width: 30%;
+    height: 50%;
+    border: 2px solid;
+    margin-left: 10vh;
+    position: relative;
+    bottom: -100px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 12px rgb(14, 14, 9);
+    display: inline-flex;
+}
+.int img{
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+}
+.card{
+     width: 40%;
+    height: 50%;
+    border: 1px solid;
+    margin-left: 10vh;
+    position: relative;
+    bottom: -100px;
+    background-color: rgb(234, 229, 240);
+    box-shadow: 2px 2px 12px rgb(14, 14, 9);
+   
+}
+.card img{
+    width: 100%;
+    height: 100%; 
+    filter: blur(8px)
+}
+.manahil img{
+    position: relative;
+    left: 460px;
+    top: -210px;
+    width: 100px;
+}
+.card p{
+
+}

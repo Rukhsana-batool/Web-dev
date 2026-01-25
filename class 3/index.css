@@ -1,0 +1,48 @@
+.main{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+}
+#OP{
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    position: relative;
+    left: 100px;
+     
+}
+
+#OP h1{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    top: 12px;
+   
+
+}
+.tt{
+     width: 200px;
+    height: 50px;
+    background-color: rgb(165, 42, 69);
+    position: relative;
+    left: 100px;
+   
+  
+}
+
+.tt h1{
+    text-align: center;
+     color: aliceblue;
+    position: relative;
+    top: 11px;
+}
+.rr{
+      width: 200px;
+    height: 50px;
+    background-color: rgb(7, 97, 100);
+    position: relative;
+    left: 100px;
+    padding: 12px;
+    margin: 12px;
+    
+}

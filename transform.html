@@ -16,12 +16,77 @@
     }
     .main{
         width: 20%;
-        height: 70vh;
+        height: 350PX;
         background-color: blue;
-        margin: 50px;
-        transition: transform(2s);
+        margin: 30px;
+        margin-top: 30px;
+        transition: transform 0.4s ease; 
+        font-size: 46px;
+        color: white;
     }
-    
+    .main:hover{
+    transform: translate(30px, 30px);
+    }
+    .sub1{
+        width: 20%;
+        height: 350px;
+        background-color: rgb(60, 255, 0);
+        margin-top: 30px;
+        transition:transform 2s ease;
+        font-size: 46px;
+        color: white;
+    }
+    .sub1:hover{
+        transform:rotate(360deg);
+        transform: rotateX(180deg);
+        transform: rotateY(180deg);
+        transform: rotateZ(180deg);
+
+    }
+    .sub2{
+         width: 20%;
+        height: 350px;
+        background-color: rgb(255, 251, 0);
+        margin: 30px;
+        transition:transform 2s ease;
+          font-size: 46px;
+        color: white;
+    }
+    .sub2:hover{
+        transform: scale(1.5);
+        transform: scaleX(1.4);
+        transform: scaleY(1.5);
+    }
+    .sub3{
+        width: 20%;
+        height: 350px;
+        background-color: rgb(252, 16, 240);
+        transition:transform 2s ease;
+        margin: 30px;
+          font-size: 46px;
+        color: white;
+    }
+    .sub3:hover{
+        transform: skew(0deg,180deg);
+    }
+    .page{
+        width: 30%;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sub{
+        width: 10%;
+        height: 5vh;
+        background-color: aqua;
+        text-align: center;
+        padding-top: 12px;
+        border-radius: 50%;
+    }
+    a{
+        text-decoration: none;
+    }
 </style>
 <body>
    <div class="cont">
@@ -31,14 +96,14 @@
     <div class="sub3">skew</div>
 
    </div> 
-   <!-- <div class="page">
-    <div class="sub"></div>
-    <div class="sub"></div>
-    <div class="sub"></div>
-    <div class="sub"></div>
-    <div class="sub"></div>
-    <div class="sub"></div>
-    <div class="sub"></div>
-   </div> -->
+   <div class="page">
+    <div class="sub"><a href="#">Pre</a></div>
+    <div class="sub"><a href="./download (4).jfif">1</a></div>
+    <div class="sub"><a href="./download (3).jfif">2</a></div>
+    <div class="sub"><a href="./download (2).jfif">3 </a></div>
+    <div class="sub"><a href="./download (1).jfif">........</a> </div>
+    <div class="sub"><a href="./download (4).jfif">10</a></div>
+    <div class="sub"><a href="./dropdown.html">Next</a></div>
+   </div>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width: 500px;
+        height: 500px;
+        border: 2px solid;
+    }
+    .sub{
+        width: 200px;
+        height: 200px;
+         border: solid 10px black;
+        border-radius: 50%;
+        border-style: solid;
+        border-left: transparent;
+        border-top: transparent;
+        border-bottom-left-radius: 50%;
+        border-top-color:blue;
+        animation: loder 1.5s linear infinite; 
+    }
+    @keyframes loder {
+
+       to{
+         transform: rotate(0deg);   
+        }
+        from{
+    transform: rotateY(360deg);
+        }
+
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="sub"></div>
+    </div>
+</body>
+</html>
