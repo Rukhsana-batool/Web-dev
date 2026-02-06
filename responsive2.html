@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+    .sub1 , .sub2{
+        width: 100%;
+        height: 70vh;
+        background-color: beige;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .sub{
+        width: 23%;
+        height: 67vh;
+        background-color: rgb(175, 231, 123);
+    }
+    .sub img{
+        width: 100%;
+        height: 150px;
+    }
+     .sub button{
+       width:  200px;
+       height:30px;
+       background-color: rgb(7, 8, 8);
+       color: aliceblue;
+     margin: 30px;
+    } 
+    .sub h3{
+        width: 200px;
+        text-align: center;
+    }
+    p{
+        margin: 20px;
+    }
+    @media only screen and (max-width:1000px ){
+        .main{
+            width: 100%;
+            display: flex;
+            height: 200vh;
+        }
+        .sub1 , .sub2{
+            width: 47%;
+            
+            height: auto;
+        }
+        .sub{
+            width: 95%;
+            margin-bottom:12px;
+        }
+    }
+@media only screen and (max-width:647px ) {
+    .main{
+        flex-direction: column;
+    }
+    .sub{
+        width: 95%;
+        margin-bottom:12px;
+    }
+        .sub1, .sub2 {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+<body>
+    <h1>Our Product</h1>
+    <div class="main">
+        <div class="sub1">
+            <div class="sub"><img src="./class 1/img/Classic wooden park bench details.png" alt="">
+                <h3>Wooden Park Bench</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nobis aliquid obcaecati dolor dignissimos, saepe nihil numquam, aliquam tempore cum vero totam illo?</p>
+                <span>Price : <del>90$</del>            80$</span><br>
+                <button>Buy Now</button>
+            </div>
+            <div class="sub"><img src="./class 1/img/ChatGPT Image Jan 7, 2026, 07_45_48 PM.png" alt="">
+              <h3>Black Cap</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nihil architecto odio minima, et autem assumenda illum voluptas doloremque distinctio dolorem Lorem ipsum.</p>
+              <span><del>50$</del>     45$</span><br>
+              <button>Buy Now</button>
+            </div>
+            <div class="sub">
+                <img src="./class 1/img/ChatGPT Image Jan 7, 2026, 07_43_01 PM.png" alt="">
+                <h3>White Sneaker</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, facere quidem. Atque debitis dignissimos ipsa. Vel ratione incidunt voluptate, exercitationem id quaerat.</p>
+                <span><del>60$</del>   50$</span><br>
+                <button>Buy Now</button>
+            </div>
+            <div class="sub"><img src="./class 1/img/ChatGPT Image Jan 6, 2026, 07_16_00 PM.png" alt="">
+              <h3>Computer</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit placeat provident rem laudantium aspernatur fugit facilis, consequuntur quaerat labore asperiores Lorem ipsum dolor sit amet consectetur.</p>
+              <span><del>90$</del>   85$</span><br>
+              <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="sub2">
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+        </div>
+        </div>
+</body>
+</html>

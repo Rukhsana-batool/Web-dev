@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width: 100%;
+        height: 100vh;
+    }
+    .sub1 ,.sub2{
+        width: 100%;
+        height: 70vh;
+        background-color: beige;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .sub{
+        width: 23%;
+        height: 67vh;
+        background-color: rgb(10, 107, 124);
+    }
+    @mediaonlyscreen and (max-width: 1000px) {
+        .mains{
+            width: 100%;
+            display: flex;
+        }
+        .sub1, .sub2{
+            width: 47%;
+            flex-direction: column;
+            height: auto;
+        }
+        .sub{
+            width: 95%;
+            margin-bottom:12px;
+        }
+    }
+
+</style>
+<body>
+    <h1>Top Product</h1>
+    <div class="main">
+        <div class="sub1">
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+        </div>
+        <div class="sub2">
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+            <div class="sub"></div>
+        </div>
+            </div>
+</body>
+</html>
