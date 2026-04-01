@@ -105,6 +105,8 @@ console.log(a+b);
       let search=arr.filter(search=>search.includes("opo"))
       console.log(search);
        let arr=["iphone", "techno","opo","infinix ","redme"];
+
+
    let find=arr.find(find=>find=="Iphone")
    console.log(find);
 
@@ -116,4 +118,118 @@ let reduce=arr1.reduce((sum ,price)=>sum+price,0)
 console.log(reduce);
 
 
-      
+      Object
+    let obj={
+        name:"sara",
+        age:18,
+    location:{
+        zipcode:16100,
+        steet:"XYZ123",
+        Country:"Pakistan",
+        }
+    }
+    console.log(obj.name);
+    console.log(obj);
+    
+    console.log(obj.location.country);
+    
+    
+    let obj2={
+        name:"Rukhsana",
+        age:"19",
+        country:["PK","IN","US","UK"],
+        province:{
+            state:[
+                {
+                    state:{
+                        provinces:["Lahore","GB"],
+                        zipcode:[112200,16602],
+                        steet:"abcd1122"
+                    }
+                }
+            ]
+        }
+    }
+    console.log(obj2);
+     let obj3={
+        name:"sara",
+        age:20,
+        address:"bcs",
+        zipcode:1234
+     }
+     console.log(obj3.name);
+      let {name, age, address, ...seprat}=obj3;
+      console.log(name);
+        console.log(age);
+          console.log(seprat);
+
+
+
+
+
+
+HOME TASK
+
+
+
+let obj={
+    name:"sara",
+     age:18,
+     location:{
+        zipcode:22443,
+        steet:"abc123",
+        country:"Pakistan"
+     }
+}
+console.log(obj.name);
+console.log(obj);
+console.log(obj.location.country);
+
+
+let num = 1234;
+let sum=0;
+while (num>0){
+    let digit =num %10;
+    sum=sum+digit;
+    num= Math.floor(num/10);
+}
+console.log("sum of digits:" ,sum);
+
+
+let num=5678;
+let sum=0;
+let str =num.toString();
+for (let i=0; i<str.length; i++){
+    sum+= Number(str[i]);
+}
+console.log("sum of digits:",sum);
+
+
+
+let num = Number(prompt("Enter a number:"));
+let sum = 0;
+while(num > 0){
+    let digit = num % 10;
+    sum += digit;
+    num = Math.floor(num / 10);
+
+} 
+console.log("sum of digits:" ,sum);
+
+
+let str ="racecar";
+let isPalindrome =true;
+for (let i=0; i<str.length / 2; i++){
+    if(str[i] !== str[str.length -1 -i]) {
+        isPalindrome =false;
+        break;
+    }
+}
+if(isPalindrome){
+    console.log(str + "is a palindrone");
+    
+}
+else{
+    console.log(str + "is not palindrome");
+    
+}
